@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Roboto:wght@100&family=Source+Sans+Pro:ital,wght@0,200;0,400;1,300&display=swap" rel="stylesheet">
+    <title>The movie DataBase</title>
+</head>
+<body>
+    <header>
+        <div class="div1">
+            <a href=""><img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" alt=""></a>
+            <nav>
+                <ul type="none">
+                    <li> <a href="">Películas</a> </li>
+                    <li> <a href="">Programas de televisión</a> </li>
+                    <li> <a href="">Personas</a> </li>
+                    <li> <a href="">Más</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="div2">
+            <nav>
+            <ul type="none">
+                <li ><a href=""><i class="fa-solid fa-plus"></i></a></li>
+                <li>ES</li>
+                <li> <a href="">Acceder</a> </li>
+                <li> <a href="">Únete a TMDB</a> </li>
+                <li><a href="" class="search"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h1>Bienvenidos.</h1>
+                <p>Millones de películas, programas de televisión y personas por descubrir. Explora ahora.</p>
+            </div>
+            <form action="/search" method="get">
+                <input type="text" placeholder="Busca una pelicula, programa de television, persona.....">
+                <input type="submit" value="Search">
+            </form>
+            
+        </section>
+        <section>
+            <h2>Lo más popular</h2>
+            <div>
+                <h3>En streaming</h3>
+                <h3>En televisión</h3>
+                <h3>En alquiler</h3>
+                <h3>En cines</h3>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

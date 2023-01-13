@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+header {
+        background-color: #032541   ;
+        display: flex;
+        justify-content:space-between;
+}
+header div nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0px;
+    
+
+}
+header div nav {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+header div nav ul li a{
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+.div1 {
+    padding-left: 40px;
+}
+header div a img {
+    width: 150px;
+    height:65px;
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+    
+}
+header div nav ul li{ 
+    padding-left: 20px;
+    color: white;
+    
+}
+.div2 {
+    padding-right: 40px;
+}
+.search {
+    color: rgb(35, 165, 204);
+    font-size: 20px;
+}
